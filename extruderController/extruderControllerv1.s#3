@@ -21186,6 +21186,13 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2"/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21271,9 +21278,9 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <instance part="X2" gate="-8" x="-256.54" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="-259.08" y="132.842" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="P" x="190.5" y="127" smashed="yes">
-<attribute name="NAME" x="194.31" y="137.668" size="1.778" layer="95"/>
-<attribute name="VALUE" x="194.31" y="116.078" size="1.778" layer="96"/>
+<instance part="X3" gate="P" x="180.34" y="127" smashed="yes">
+<attribute name="NAME" x="184.15" y="137.668" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.15" y="116.078" size="1.778" layer="96"/>
 </instance>
 <instance part="SV1" gate="1" x="-22.86" y="149.86" smashed="yes">
 <attribute name="VALUE" x="-26.67" y="142.24" size="1.778" layer="96"/>
@@ -21578,6 +21585,30 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <instance part="GND21" gate="1" x="-254" y="-40.64" smashed="yes">
 <attribute name="VALUE" x="-256.54" y="-43.18" size="1.778" layer="96"/>
 </instance>
+<instance part="C12" gate="G$1" x="162.56" y="106.68" smashed="yes">
+<attribute name="NAME" x="164.084" y="107.061" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.084" y="101.981" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="157.48" y="132.08" smashed="yes">
+<attribute name="NAME" x="153.67" y="133.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="128.778" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="157.48" y="121.92" smashed="yes">
+<attribute name="NAME" x="153.67" y="123.4186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="118.618" size="1.778" layer="96"/>
+</instance>
+<instance part="P+14" gate="1" x="149.86" y="139.7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="144.78" y="142.24" size="1.778" layer="96"/>
+</instance>
+<instance part="P+15" gate="1" x="162.56" y="111.76" smashed="yes">
+<attribute name="VALUE" x="160.02" y="106.68" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND22" gate="1" x="147.32" y="104.14" smashed="yes">
+<attribute name="VALUE" x="144.78" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="162.56" y="99.06" smashed="yes">
+<attribute name="VALUE" x="160.02" y="96.52" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21693,6 +21724,15 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="-254" y1="-38.1" x2="-254" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="147.32" y1="106.68" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -21807,6 +21847,14 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <pinref part="X6" gate="-3" pin="S"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 <wire x1="-185.42" y1="-40.64" x2="-187.96" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<pinref part="P+14" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="P+15" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22324,12 +22372,6 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <wire x1="-218.44" y1="-20.32" x2="-228.6" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="I3"/>
-<wire x1="-254" y1="-22.86" x2="-264.16" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="I2"/>
@@ -22382,6 +22424,68 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <pinref part="IC4" gate="A" pin="I7"/>
 <wire x1="-254" y1="-33.02" x2="-264.16" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-264.16" y="-33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PJ7" class="0">
+<segment>
+<pinref part="U1" gate="1" pin="PJ7"/>
+<wire x1="-58.42" y1="15.24" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
+<label x="-68.58" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="A" pin="I3"/>
+<wire x1="-254" y1="-22.86" x2="-264.16" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-264.16" y="-22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="X3" gate="P" pin="8"/>
+<pinref part="IC2" gate="G$1" pin="B"/>
+<wire x1="177.8" y1="119.38" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="121.92" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<junction x="152.4" y="119.38"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="A"/>
+<wire x1="147.32" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="124.46" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="X3" gate="P" pin="7"/>
+<wire x1="167.64" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="121.92" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<junction x="162.56" y="124.46"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="Z"/>
+<wire x1="147.32" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="X3" gate="P" pin="6"/>
+<wire x1="170.18" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="132.08" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
+<junction x="152.4" y="129.54"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="Y"/>
+<wire x1="147.32" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="134.62" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<pinref part="X3" gate="P" pin="5"/>
+<wire x1="172.72" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="132.08" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
+<junction x="162.56" y="134.62"/>
 </segment>
 </net>
 </nets>
