@@ -148,7 +148,7 @@
 <wire x1="93.65" y1="0" x2="93.65" y2="69.332" width="0" layer="20"/>
 <wire x1="93.65" y1="69.332" x2="0" y2="69.332" width="0" layer="20"/>
 <wire x1="0" y1="69.332" x2="0" y2="0" width="0" layer="20"/>
-<text x="6.858" y="39.37" size="1.778" layer="25" rot="SR180">Fans</text>
+<text x="1.778" y="38.354" size="1.778" layer="25">Fans</text>
 <text x="31.75" y="11.684" size="1.778" layer="25" rot="SR180">Thermocouples</text>
 <text x="55.626" y="12.954" size="1.778" layer="25" rot="SR180">Heaters</text>
 <text x="77.724" y="12.7" size="1.778" layer="25" rot="SR180">Motor</text>
@@ -156,7 +156,7 @@
 <text x="78.994" y="7.62" size="1.016" layer="25" rot="R90">STEP</text>
 <text x="71.12" y="7.366" size="1.016" layer="25" rot="R90">GND</text>
 <text x="73.66" y="7.366" size="1.016" layer="25" rot="R90">5V</text>
-<text x="86.36" y="17.78" size="1.016" layer="25" rot="SR180">Screw RPM</text>
+<text x="86.36" y="17.78" size="1.016" layer="25" rot="R180">Screw RPM</text>
 <text x="42.672" y="7.366" size="1.016" layer="25" rot="R90">5V</text>
 <text x="47.752" y="7.366" size="1.016" layer="25" rot="R90">5V</text>
 <text x="52.832" y="7.366" size="1.016" layer="25" rot="R90">5V</text>
@@ -173,24 +173,24 @@
 <text x="27.686" y="7.366" size="1.016" layer="25" rot="R90">T3-</text>
 <text x="30.226" y="7.366" size="1.016" layer="25" rot="R90">T4+</text>
 <text x="32.512" y="7.366" size="1.016" layer="25" rot="R90">T4-</text>
-<text x="9.652" y="36.068" size="1.016" layer="25" rot="SR180">F1</text>
-<text x="9.652" y="30.988" size="1.016" layer="25" rot="SR180">F2</text>
-<text x="9.906" y="25.908" size="1.016" layer="25" rot="SR180">F3</text>
-<text x="9.906" y="20.828" size="1.016" layer="25" rot="SR180">F4</text>
-<text x="9.906" y="15.748" size="1.016" layer="25" rot="SR180">F5</text>
-<text x="86.36" y="22.86" size="1.016" layer="25" rot="SR180">5V</text>
-<text x="86.36" y="25.4" size="1.016" layer="25" rot="SR180">GND</text>
-<text x="86.36" y="12.7" size="1.016" layer="25" rot="SR180">5V</text>
-<text x="86.36" y="15.24" size="1.016" layer="25" rot="SR180">GND</text>
-<text x="86.36" y="27.94" size="1.016" layer="25" rot="SR180">Hopper level</text>
+<text x="7.62" y="35.052" size="1.016" layer="25">F1</text>
+<text x="7.62" y="29.972" size="1.016" layer="25">F2</text>
+<text x="7.62" y="24.892" size="1.016" layer="25">F3</text>
+<text x="7.62" y="19.812" size="1.016" layer="25">F4</text>
+<text x="7.874" y="14.732" size="1.016" layer="25">F5</text>
+<text x="86.36" y="22.86" size="1.016" layer="25" rot="R180">5V</text>
+<text x="86.36" y="25.4" size="1.016" layer="25" rot="R180">GND</text>
+<text x="86.36" y="12.7" size="1.016" layer="25" rot="R180">5V</text>
+<text x="86.36" y="15.24" size="1.016" layer="25" rot="R180">GND</text>
+<text x="86.36" y="27.94" size="1.016" layer="25" rot="R180">Hopper level</text>
 <text x="70.358" y="34.798" size="3.81" layer="25" font="vector" ratio="20" rot="SR180">Extruder</text>
 <text x="70.358" y="39.624" size="3.81" layer="25" font="vector" ratio="20" rot="SR180">Controller</text>
 <text x="69.85" y="42.926" size="2.54" layer="25" font="vector" ratio="20" rot="SR180">v1p2</text>
-<text x="10.16" y="13.208" size="1.016" layer="25" rot="SR180">12V</text>
-<text x="10.16" y="18.288" size="1.016" layer="25" rot="SR180">12V</text>
-<text x="10.16" y="23.368" size="1.016" layer="25" rot="SR180">12V</text>
-<text x="10.16" y="28.448" size="1.016" layer="25" rot="SR180">12V</text>
-<text x="10.16" y="33.528" size="1.016" layer="25" rot="SR180">12V</text>
+<text x="7.874" y="11.938" size="1.016" layer="25">12V</text>
+<text x="7.62" y="17.272" size="1.016" layer="25">12V</text>
+<text x="7.62" y="22.352" size="1.016" layer="25">12V</text>
+<text x="7.62" y="27.432" size="1.016" layer="25">12V</text>
+<text x="7.62" y="32.766" size="1.016" layer="25">12V</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

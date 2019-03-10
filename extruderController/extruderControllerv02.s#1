@@ -26402,16 +26402,6 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <pinref part="C14" gate="G$1" pin="2"/>
 <junction x="-71.12" y="88.9"/>
 </segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="10"/>
-<wire x1="165.1" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
-<label x="175.26" y="73.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="11"/>
-<wire x1="165.1" y1="76.2" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
-<label x="175.26" y="76.2" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -26559,16 +26549,6 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <junction x="-86.36" y="96.52"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <junction x="-71.12" y="96.52"/>
-</segment>
-<segment>
-<wire x1="132.08" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="142.24" y="76.2" size="1.778" layer="95" rot="R180"/>
-<pinref part="J3" gate="G$1" pin="11"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<label x="106.68" y="76.2" size="1.778" layer="95" rot="R180"/>
-<pinref part="J5" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -27600,6 +27580,18 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="10"/>
+<wire x1="165.1" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="11"/>
+<wire x1="165.1" y1="76.2" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="X6" gate="-1" pin="S"/>
@@ -27612,6 +27604,18 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <pinref part="X6" gate="-2" pin="S"/>
 <pinref part="IC4" gate="A" pin="O3"/>
 <wire x1="-218.44" y1="-22.86" x2="-228.6" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEST" class="0">
+<segment>
+<wire x1="96.52" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<label x="106.68" y="76.2" size="1.778" layer="95" rot="R180"/>
+<pinref part="J5" gate="G$1" pin="11"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="142.24" y="76.2" size="1.778" layer="95" rot="R180"/>
+<pinref part="J3" gate="G$1" pin="11"/>
 </segment>
 </net>
 </nets>
