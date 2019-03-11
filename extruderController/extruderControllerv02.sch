@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25470,7 +25470,7 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -25512,8 +25512,8 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="120"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="120"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25528,7 +25528,7 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RJ45-8" device="" package3d_urn="urn:adsk.eagle:package:38235/1" value="RJ45"/>
@@ -25559,8 +25559,6 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IC3" library="atmel-2005" deviceset="ATMEGA2561*" device="AU" technology="-16"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_11" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_11" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_11" device=""/>
@@ -26051,18 +26049,18 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 </instance>
 <instance part="D2" gate="G$1" x="-175.26" y="-86.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="-172.72" y="-88.392" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-172.72" y="-81.788" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="-172.72" y="-84.328" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="P+22" gate="1" x="-182.88" y="-86.36" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-177.8" y="-88.9" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D3" gate="G$1" x="-175.26" y="-111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="-172.72" y="-113.792" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-172.72" y="-107.188" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="-172.72" y="-109.728" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="D4" gate="G$1" x="-175.26" y="-137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="-172.72" y="-139.192" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-172.72" y="-132.588" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="-172.72" y="-135.128" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="D5" gate="G$1" x="-175.26" y="-162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="-172.72" y="-164.592" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -26094,12 +26092,6 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <instance part="C14" gate="G$1" x="-71.12" y="93.98" smashed="yes">
 <attribute name="NAME" x="-69.596" y="94.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-69.596" y="89.281" size="1.778" layer="96"/>
-</instance>
-<instance part="P+28" gate="1" x="96.52" y="12.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="101.6" y="10.16" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND31" gate="1" x="114.3" y="10.16" smashed="yes">
-<attribute name="VALUE" x="111.76" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="121.92" y="63.5" smashed="yes">
 <attribute name="VALUE" x="121.92" y="45.974" size="1.778" layer="96" font="vector"/>
@@ -26357,6 +26349,11 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-180.34" y1="-101.6" x2="-170.18" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="-170.18" y="-101.6"/>
+<pinref part="Q2" gate="G$1" pin="S@2"/>
+<pinref part="Q2" gate="G$1" pin="S@1"/>
+<wire x1="-170.18" y1="-99.06" x2="-170.18" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="-101.6" x2="-170.18" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-99.06"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
@@ -26364,6 +26361,11 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <wire x1="-170.18" y1="-127" x2="-180.34" y2="-127" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <junction x="-170.18" y="-127"/>
+<pinref part="Q3" gate="G$1" pin="S@1"/>
+<wire x1="-170.18" y1="-127" x2="-170.18" y2="-124.46" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="S@2"/>
+<wire x1="-170.18" y1="-124.46" x2="-170.18" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-124.46"/>
 </segment>
 <segment>
 <pinref part="Q4" gate="G$1" pin="S"/>
@@ -26371,6 +26373,11 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <wire x1="-170.18" y1="-152.4" x2="-180.34" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <junction x="-170.18" y="-152.4"/>
+<pinref part="Q4" gate="G$1" pin="S@1"/>
+<wire x1="-170.18" y1="-152.4" x2="-170.18" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="S@2"/>
+<wire x1="-170.18" y1="-149.86" x2="-170.18" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-149.86"/>
 </segment>
 <segment>
 <pinref part="Q5" gate="G$1" pin="S"/>
@@ -26378,6 +26385,11 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <wire x1="-170.18" y1="-177.8" x2="-180.34" y2="-177.8" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <junction x="-170.18" y="-177.8"/>
+<pinref part="Q5" gate="G$1" pin="S@1"/>
+<wire x1="-170.18" y1="-177.8" x2="-170.18" y2="-175.26" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="S@2"/>
+<wire x1="-170.18" y1="-175.26" x2="-170.18" y2="-172.72" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-175.26"/>
 </segment>
 <segment>
 <pinref part="Q6" gate="G$1" pin="S"/>
@@ -26385,6 +26397,11 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <wire x1="-170.18" y1="-203.2" x2="-180.34" y2="-203.2" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <junction x="-170.18" y="-203.2"/>
+<pinref part="Q6" gate="G$1" pin="S@1"/>
+<wire x1="-170.18" y1="-203.2" x2="-170.18" y2="-200.66" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="S@2"/>
+<wire x1="-170.18" y1="-200.66" x2="-170.18" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-200.66"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
