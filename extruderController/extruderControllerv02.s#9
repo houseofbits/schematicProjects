@@ -25584,9 +25584,9 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <text x="66.04" y="218.44" size="5.08" layer="91">RS485 communication</text>
 <text x="66.04" y="27.94" size="5.08" layer="91">Hopper level sensor input</text>
 <wire x1="-109.22" y1="167.64" x2="55.88" y2="167.64" width="0.254" layer="95" style="longdash"/>
-<wire x1="55.88" y1="167.64" x2="55.88" y2="-45.72" width="0.254" layer="95" style="longdash"/>
-<wire x1="55.88" y1="-45.72" x2="-109.22" y2="-45.72" width="0.254" layer="95" style="longdash"/>
-<wire x1="-109.22" y1="-45.72" x2="-109.22" y2="167.64" width="0.254" layer="95" style="longdash"/>
+<wire x1="55.88" y1="167.64" x2="55.88" y2="-35.56" width="0.254" layer="95" style="longdash"/>
+<wire x1="55.88" y1="-35.56" x2="-109.22" y2="-35.56" width="0.254" layer="95" style="longdash"/>
+<wire x1="-109.22" y1="-35.56" x2="-109.22" y2="167.64" width="0.254" layer="95" style="longdash"/>
 <text x="-353.06" y="218.44" size="5.08" layer="91">Cooling fan control output</text>
 <text x="66.04" y="142.24" size="5.08" layer="91">I/O</text>
 </plain>
@@ -27657,17 +27657,17 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 </net>
 <net name="N$24" class="0">
 <segment>
-<wire x1="63.5" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91" style="longdash"/>
-<wire x1="162.56" y1="83.82" x2="162.56" y2="40.64" width="0.1524" layer="91" style="longdash"/>
-<wire x1="162.56" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91" style="longdash"/>
+<wire x1="63.5" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91" style="longdash"/>
+<wire x1="170.18" y1="83.82" x2="170.18" y2="40.64" width="0.1524" layer="91" style="longdash"/>
+<wire x1="170.18" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91" style="longdash"/>
 <wire x1="63.5" y1="40.64" x2="63.5" y2="83.82" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<wire x1="63.5" y1="35.56" x2="162.56" y2="35.56" width="0.1524" layer="91" style="longdash"/>
-<wire x1="162.56" y1="35.56" x2="162.56" y2="-10.16" width="0.1524" layer="91" style="longdash"/>
-<wire x1="162.56" y1="-10.16" x2="63.5" y2="-10.16" width="0.1524" layer="91" style="longdash"/>
+<wire x1="63.5" y1="35.56" x2="170.18" y2="35.56" width="0.1524" layer="91" style="longdash"/>
+<wire x1="170.18" y1="35.56" x2="170.18" y2="-10.16" width="0.1524" layer="91" style="longdash"/>
+<wire x1="170.18" y1="-10.16" x2="63.5" y2="-10.16" width="0.1524" layer="91" style="longdash"/>
 <wire x1="63.5" y1="-10.16" x2="63.5" y2="35.56" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>

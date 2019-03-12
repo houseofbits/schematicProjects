@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25424,6 +25424,118 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="WR-MJ">
+<description>&lt;b&gt;WR-MJ DUAL MODULAR JACK&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-11.43" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="2" x="-10.16" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="3" x="-8.89" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="4" x="-7.62" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="5" x="-6.35" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="6" x="-5.08" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="7" x="-3.81" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="8" x="-2.54" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="9" x="2.54" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="10" x="3.81" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="11" x="5.08" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="12" x="6.35" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="13" x="7.62" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="14" x="8.89" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="15" x="10.16" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="16" x="11.43" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="17" x="0" y="14.81" drill="1.6" diameter="2.4"/>
+<hole x="-12.7" y="4.57" drill="3.25"/>
+<hole x="12.7" y="4.57" drill="3.25"/>
+<pad name="20" x="15.435" y="0" drill="1.6" diameter="2.4"/>
+<pad name="21" x="-15.435" y="0" drill="1.6" diameter="2.4"/>
+<text x="-0.344" y="4.608" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.344" y="4.608" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-15.56" y1="14.99" x2="15.56" y2="14.99" width="0.2" layer="51"/>
+<wire x1="15.56" y1="14.99" x2="15.56" y2="-6.28" width="0.2" layer="51"/>
+<wire x1="15.56" y1="-6.28" x2="-15.56" y2="-6.28" width="0.2" layer="51"/>
+<wire x1="-15.56" y1="-6.28" x2="-15.56" y2="14.99" width="0.2" layer="51"/>
+<wire x1="-15.56" y1="1.518" x2="-15.56" y2="14.99" width="0.2" layer="21"/>
+<wire x1="-15.56" y1="14.99" x2="-1.7" y2="14.99" width="0.2" layer="21"/>
+<wire x1="15.56" y1="1.518" x2="15.56" y2="14.99" width="0.2" layer="21"/>
+<wire x1="15.56" y1="14.99" x2="1.7" y2="14.99" width="0.2" layer="21"/>
+<wire x1="-15.56" y1="-6.28" x2="15.56" y2="-6.28" width="0.2" layer="21"/>
+<wire x1="-15.56" y1="-6.28" x2="-15.56" y2="-1.518" width="0.2" layer="21"/>
+<wire x1="15.56" y1="-6.28" x2="15.56" y2="-1.518" width="0.2" layer="21"/>
+<circle x="-16.125" y="10.951" radius="0.183559375" width="0.4" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="615016137621">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="3" x="0" y="-2.54" length="middle"/>
+<pin name="5" x="0" y="-5.08" length="middle"/>
+<pin name="7" x="0" y="-7.62" length="middle"/>
+<pin name="9" x="0" y="-10.16" length="middle"/>
+<pin name="11" x="0" y="-12.7" length="middle"/>
+<pin name="13" x="0" y="-15.24" length="middle"/>
+<pin name="15" x="0" y="-17.78" length="middle"/>
+<pin name="2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="4" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="6" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="8" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="10" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="12" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="14" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="16" x="22.86" y="-17.78" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="615016137621" prefix="J">
+<description>&lt;b&gt;Wurth Elektronik Female Cat5e RJ45 Connector, Shielded, Right Angle, PCB Mount Mount,&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="615016137621" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WR-MJ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Wurth Elektronik Female Cat5e RJ45 Connector, Shielded, Right Angle, PCB Mount Mount," constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="615016137621" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-615016137621" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-615016137621" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25572,6 +25684,7 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="3.5MM" package3d_urn="urn:adsk.eagle:package:38050/1"/>
 <part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J8" library="SamacSys_Parts" deviceset="615016137621" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25582,7 +25695,7 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 <text x="-243.84" y="218.44" size="5.08" layer="91">Heater SSR output x4</text>
 <text x="-243.84" y="210.82" size="5.08" layer="91">Main stepper control output</text>
 <text x="66.04" y="76.2" size="5.08" layer="91">Hall effect sensor (rpm) input</text>
-<text x="66.04" y="218.44" size="5.08" layer="91">RS485 communication</text>
+<text x="66.04" y="256.54" size="5.08" layer="91">RS485 communication</text>
 <text x="66.04" y="27.94" size="5.08" layer="91">Hopper level sensor input</text>
 <wire x1="-109.22" y1="167.64" x2="55.88" y2="167.64" width="0.254" layer="95" style="longdash"/>
 <wire x1="55.88" y1="167.64" x2="55.88" y2="-35.56" width="0.254" layer="95" style="longdash"/>
@@ -26161,6 +26274,10 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 </instance>
 <instance part="GND31" gate="1" x="-93.98" y="200.66" smashed="yes">
 <attribute name="VALUE" x="-96.52" y="198.12" size="1.778" layer="96"/>
+</instance>
+<instance part="J8" gate="G$1" x="119.38" y="233.68" smashed="yes">
+<attribute name="NAME" x="138.43" y="241.3" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="138.43" y="238.76" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -27640,10 +27757,10 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 </net>
 <net name="N$42" class="0">
 <segment>
-<wire x1="63.5" y1="226.06" x2="63.5" y2="154.94" width="0.1524" layer="91" style="longdash"/>
+<wire x1="63.5" y1="264.16" x2="63.5" y2="154.94" width="0.1524" layer="91" style="longdash"/>
 <wire x1="63.5" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91" style="longdash"/>
-<wire x1="170.18" y1="154.94" x2="170.18" y2="226.06" width="0.1524" layer="91" style="longdash"/>
-<wire x1="170.18" y1="226.06" x2="63.5" y2="226.06" width="0.1524" layer="91" style="longdash"/>
+<wire x1="170.18" y1="154.94" x2="170.18" y2="264.16" width="0.1524" layer="91" style="longdash"/>
+<wire x1="170.18" y1="264.16" x2="63.5" y2="264.16" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="N$43" class="0">

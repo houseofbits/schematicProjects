@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2293,6 +2293,51 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="WR-MJ">
+<description>&lt;b&gt;WR-MJ DUAL MODULAR JACK&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-11.43" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="2" x="-10.16" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="3" x="-8.89" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="4" x="-7.62" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="5" x="-6.35" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="6" x="-5.08" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="7" x="-3.81" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="8" x="-2.54" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="9" x="2.54" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="10" x="3.81" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="11" x="5.08" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="12" x="6.35" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="13" x="7.62" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="14" x="8.89" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="15" x="10.16" y="10.92" drill="0.9" diameter="1.4"/>
+<pad name="16" x="11.43" y="13.46" drill="0.9" diameter="1.4"/>
+<pad name="17" x="0" y="14.81" drill="1.6" diameter="2.4"/>
+<hole x="-12.7" y="4.57" drill="3.25"/>
+<hole x="12.7" y="4.57" drill="3.25"/>
+<pad name="20" x="15.435" y="0" drill="1.6" diameter="2.4"/>
+<pad name="21" x="-15.435" y="0" drill="1.6" diameter="2.4"/>
+<text x="-0.344" y="4.608" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.344" y="4.608" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-15.56" y1="14.99" x2="15.56" y2="14.99" width="0.2" layer="51"/>
+<wire x1="15.56" y1="14.99" x2="15.56" y2="-6.28" width="0.2" layer="51"/>
+<wire x1="15.56" y1="-6.28" x2="-15.56" y2="-6.28" width="0.2" layer="51"/>
+<wire x1="-15.56" y1="-6.28" x2="-15.56" y2="14.99" width="0.2" layer="51"/>
+<wire x1="-15.56" y1="1.518" x2="-15.56" y2="14.99" width="0.2" layer="21"/>
+<wire x1="-15.56" y1="14.99" x2="-1.7" y2="14.99" width="0.2" layer="21"/>
+<wire x1="15.56" y1="1.518" x2="15.56" y2="14.99" width="0.2" layer="21"/>
+<wire x1="15.56" y1="14.99" x2="1.7" y2="14.99" width="0.2" layer="21"/>
+<wire x1="-15.56" y1="-6.28" x2="15.56" y2="-6.28" width="0.2" layer="21"/>
+<wire x1="-15.56" y1="-6.28" x2="-15.56" y2="-1.518" width="0.2" layer="21"/>
+<wire x1="15.56" y1="-6.28" x2="15.56" y2="-1.518" width="0.2" layer="21"/>
+<circle x="-16.125" y="10.951" radius="0.183559375" width="0.4" layer="25"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2704,6 +2749,16 @@ design rules under a new name.</description>
 <element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SCREWTERMINAL-3.5MM-2" package3d_urn="urn:adsk.eagle:package:38050/1" value="" x="4.318" y="52.832" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CONN-08399" x="4.318" y="52.832" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="3.048" y="51.562" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="J8" library="SamacSys_Parts" package="WR-MJ" value="615016137621" x="64.262" y="66.802" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Wurth Elektronik Female Cat5e RJ45 Connector, Shielded, Right Angle, PCB Mount Mount," x="64.262" y="66.802" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="64.262" y="66.802" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="64.262" y="66.802" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="615016137621" x="64.262" y="66.802" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-615016137621" x="64.262" y="66.802" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-615016137621" x="64.262" y="66.802" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="64.606" y="62.194" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="64.606" y="62.194" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
