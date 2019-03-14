@@ -1993,11 +1993,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.099" y="0.889" size="1.27" layer="49"/>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1" value="" x="43.434" y="8.382" smashed="yes">
-<attribute name="NAME" x="41.934" y="9.382" size="1.27" layer="49"/>
+<attribute name="NAME" x="41.934" y="9.382" size="0.6096" layer="49"/>
 <attribute name="VALUE" x="41.934" y="5.882" size="1.27" layer="27"/>
 </element>
 <element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1" value="" x="43.688" y="5.08" smashed="yes">
-<attribute name="NAME" x="42.188" y="6.08" size="1.27" layer="49"/>
+<attribute name="NAME" x="42.188" y="6.08" size="0.6096" layer="49"/>
 <attribute name="VALUE" x="42.188" y="2.58" size="1.27" layer="27"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="38.354" y="8.382" smashed="yes">
@@ -2031,7 +2031,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.226" y="17.78" size="0.3048" layer="27" rot="R180" align="center"/>
 </element>
 <element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1" value="" x="43.688" y="1.778" smashed="yes">
-<attribute name="NAME" x="42.188" y="2.778" size="1.27" layer="49"/>
+<attribute name="NAME" x="42.188" y="2.778" size="0.6096" layer="49"/>
 <attribute name="VALUE" x="42.188" y="-0.722" size="1.27" layer="27"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="38.354" y="1.778" smashed="yes">
