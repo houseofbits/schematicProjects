@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27236,9 +27236,9 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <label x="10.16" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="RO"/>
-<wire x1="78.74" y1="185.42" x2="71.12" y2="185.42" width="0.1524" layer="91"/>
-<label x="71.12" y="185.42" size="1.778" layer="95"/>
+<wire x1="119.38" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
+<label x="129.54" y="114.3" size="1.778" layer="95" rot="R180"/>
+<pinref part="J3" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="PE1" class="0">
@@ -27447,9 +27447,9 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <label x="30.48" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
-<label x="129.54" y="114.3" size="1.778" layer="95" rot="R180"/>
-<pinref part="J3" gate="G$1" pin="7"/>
+<pinref part="IC2" gate="G$1" pin="RO"/>
+<wire x1="78.74" y1="185.42" x2="71.12" y2="185.42" width="0.1524" layer="91"/>
+<label x="71.12" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF5" class="0">

@@ -9,7 +9,7 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -184,7 +184,7 @@
 <text x="85.852" y="15.494" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">GND</text>
 <text x="85.598" y="28.194" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">Hopper level</text>
 <text x="63.754" y="27.686" size="3.81" layer="25" font="vector" ratio="20" rot="SR180">Extruder</text>
-<text x="69.088" y="33.274" size="3.81" layer="25" font="vector" ratio="20" rot="SR180">Controller</text>
+<text x="69.088" y="33.02" size="3.81" layer="25" font="vector" ratio="20" rot="SR180">Controller</text>
 <text x="68.834" y="36.576" size="2.54" layer="25" font="vector" ratio="20" rot="SR180">v1</text>
 <text x="10.16" y="22.352" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">12V</text>
 <text x="10.16" y="27.432" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">12V</text>
@@ -192,14 +192,14 @@
 <text x="10.16" y="37.592" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">12V</text>
 <text x="10.16" y="42.672" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">12V</text>
 <text x="41.148" y="56.896" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">+5V</text>
-<text x="50.038" y="55.626" size="1.016" layer="25" font="vector" ratio="15" rot="SR180">GND</text>
+<text x="46.228" y="58.42" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">GND</text>
 <text x="43.688" y="56.896" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">MOSI</text>
 <text x="41.148" y="47.752" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">MISO</text>
 <text x="43.688" y="48.514" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">SCK</text>
 <text x="46.482" y="46.99" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">RESET</text>
 <text x="10.16" y="55.626" size="1.778" layer="25" font="vector" ratio="15" rot="SR90">+12V</text>
-<text x="68.834" y="66.294" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">RS485</text>
-<text x="51.308" y="53.594" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">ISP</text>
+<text x="76.2" y="50.546" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">RS485</text>
+<text x="49.53" y="47.244" size="1.778" layer="25" font="vector" ratio="15" rot="SR90">ISP</text>
 <text x="82.296" y="31.75" size="1.778" layer="25" font="vector" ratio="15" rot="SR90">I/O</text>
 <text x="7.366" y="49.784" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">+12V</text>
 </plain>
@@ -4652,9 +4652,9 @@ design rules under a new name.</description>
 <wire x1="59.7154" y1="45.339" x2="59.7154" y2="45.9994" width="0.6096" layer="1"/>
 <wire x1="59.7154" y1="45.9994" x2="61.214" y2="47.498" width="0.6096" layer="1"/>
 <via x="61.214" y="47.498" extent="1-16" drill="0.35"/>
-<wire x1="61.214" y1="47.498" x2="62.484" y2="48.768" width="0.6096" layer="16"/>
-<wire x1="62.484" y1="55.12" x2="61.722" y2="55.882" width="0.6096" layer="16"/>
-<wire x1="62.484" y1="48.768" x2="62.484" y2="55.12" width="0.6096" layer="16"/>
+<wire x1="61.214" y1="47.498" x2="62.23" y2="48.514" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="55.374" x2="61.722" y2="55.882" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="48.514" x2="62.23" y2="55.374" width="0.6096" layer="16"/>
 <wire x1="59.7154" y1="45.339" x2="62.103" y2="45.339" width="0.6096" layer="1"/>
 <wire x1="64.392" y1="47.628" x2="65.278" y2="47.628" width="0.6096" layer="1"/>
 <wire x1="62.103" y1="45.339" x2="64.392" y2="47.628" width="0.6096" layer="1"/>
@@ -4673,8 +4673,8 @@ design rules under a new name.</description>
 <wire x1="58.166" y1="44.45" x2="58.166" y2="46.228" width="0.6096" layer="1"/>
 <wire x1="58.166" y1="46.228" x2="60.706" y2="48.768" width="0.6096" layer="1"/>
 <via x="60.706" y="48.768" extent="1-16" drill="0.35"/>
-<wire x1="60.706" y1="48.768" x2="60.706" y2="53.088" width="0.6096" layer="16"/>
-<wire x1="60.706" y1="53.088" x2="60.452" y2="53.342" width="0.6096" layer="16"/>
+<wire x1="60.452" y1="53.342" x2="60.452" y2="49.022" width="0.6096" layer="16"/>
+<wire x1="60.706" y1="48.768" x2="60.452" y2="49.022" width="0.6096" layer="16"/>
 <wire x1="59.7154" y1="44.069" x2="64.519" y2="44.069" width="0.6096" layer="1"/>
 <wire x1="64.519" y1="44.069" x2="65.278" y2="44.828" width="0.6096" layer="1"/>
 </signal>
