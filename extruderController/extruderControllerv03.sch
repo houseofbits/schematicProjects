@@ -253,22 +253,6 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <text x="-10.16" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2041" library_version="2">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="22-23-2031" library_version="2">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
@@ -305,6 +289,23 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <pad name="10" x="11.43" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-12.7" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-12.7" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="22-23-2051" library_version="2">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 5 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232051_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-6.35" y1="3.175" x2="6.35" y2="3.175" width="0.254" layer="21"/>
+<wire x1="6.35" y1="3.175" x2="6.35" y2="1.27" width="0.254" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-3.175" x2="-6.35" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-5.08" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-6.35" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -351,33 +352,6 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <attribute name="MPN" value="22-23-2081" constant="no"/>
 <attribute name="OC_FARNELL" value="1756826" constant="no"/>
 <attribute name="OC_NEWARK" value="01C7592" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="22-23-2041" prefix="X" library_version="2">
-<description>.100" (2.54mm) Center Header - 4 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2041">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2041" constant="no"/>
-<attribute name="OC_FARNELL" value="1462920" constant="no"/>
-<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -442,6 +416,35 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <attribute name="MPN" value="22-23-2101" constant="no"/>
 <attribute name="OC_FARNELL" value="1756828" constant="no"/>
 <attribute name="OC_NEWARK" value="94C0765" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-23-2051" prefix="X" library_version="2">
+<description>.100" (2.54mm) Center Header - 5 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2051">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2051" constant="no"/>
+<attribute name="OC_FARNELL" value="1462952" constant="no"/>
+<attribute name="OC_NEWARK" value="38C9178" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26552,7 +26555,6 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.3" package3d_urn="urn:adsk.eagle:package:14283/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.3" package3d_urn="urn:adsk.eagle:package:14283/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.3" package3d_urn="urn:adsk.eagle:package:14283/1"/>
-<part name="X6" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -26660,6 +26662,7 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <part name="P+34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="27"/>
+<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2051" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26837,19 +26840,6 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <instance part="H4" gate="G$1" x="-317.5" y="30.48" smashed="yes">
 <attribute name="NAME" x="-314.706" y="31.0642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-314.706" y="28.0162" size="1.778" layer="96"/>
-</instance>
-<instance part="X6" gate="-1" x="-172.72" y="190.5" smashed="yes">
-<attribute name="NAME" x="-170.18" y="189.738" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-163.322" y="191.897" size="1.778" layer="96"/>
-</instance>
-<instance part="X6" gate="-2" x="-172.72" y="187.96" smashed="yes">
-<attribute name="NAME" x="-170.18" y="187.198" size="1.524" layer="95"/>
-</instance>
-<instance part="X6" gate="-3" x="-139.7" y="167.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="-142.24" y="168.402" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X6" gate="-4" x="-139.7" y="165.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="-142.24" y="165.862" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="C3" gate="G$1" x="-99.06" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="-98.679" y="125.476" size="1.778" layer="95" rot="R270"/>
@@ -27266,6 +27256,22 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <attribute name="NAME" x="-67.31" y="115.3414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-67.31" y="120.142" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="X4" gate="-1" x="-180.34" y="193.04" smashed="yes">
+<attribute name="NAME" x="-177.8" y="192.278" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-181.102" y="194.437" size="1.778" layer="96"/>
+</instance>
+<instance part="X4" gate="-2" x="-180.34" y="190.5" smashed="yes">
+<attribute name="NAME" x="-177.8" y="189.738" size="1.524" layer="95"/>
+</instance>
+<instance part="X4" gate="-3" x="-180.34" y="187.96" smashed="yes">
+<attribute name="NAME" x="-177.8" y="187.198" size="1.524" layer="95"/>
+</instance>
+<instance part="X4" gate="-4" x="-139.7" y="167.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="-142.24" y="168.402" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-5" x="-139.7" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="-142.24" y="165.862" size="1.524" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27392,10 +27398,6 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="66.04" x2="-129.54" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-139.7" y="66.04"/>
-</segment>
-<segment>
-<pinref part="X6" gate="-4" pin="S"/>
-<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="GND"/>
@@ -27568,6 +27570,10 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <wire x1="-104.14" y1="127" x2="-104.14" y2="116.84" width="0.1524" layer="91"/>
 <junction x="-104.14" y="116.84"/>
 </segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="X4" gate="-5" pin="S"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -27647,9 +27653,9 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <junction x="-132.08" y="208.28"/>
 </segment>
 <segment>
-<pinref part="X6" gate="-3" pin="S"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 <wire x1="-134.62" y1="167.64" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-4" pin="S"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
@@ -28431,9 +28437,9 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <label x="12.7" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="A" pin="I2"/>
-<wire x1="-210.82" y1="190.5" x2="-220.98" y2="190.5" width="0.1524" layer="91"/>
-<label x="-220.98" y="190.5" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="I1"/>
+<wire x1="-210.82" y1="193.04" x2="-220.98" y2="193.04" width="0.1524" layer="91"/>
+<label x="-220.98" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -28599,21 +28605,16 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <label x="30.48" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
-<label x="129.54" y="121.92" size="1.778" layer="95" rot="R180"/>
-<pinref part="J3" gate="G$1" pin="10"/>
+<pinref part="IC4" gate="A" pin="I2"/>
+<wire x1="-210.82" y1="190.5" x2="-220.98" y2="190.5" width="0.1524" layer="91"/>
+<label x="-220.98" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF6" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="(ADC6/TDO)PF6"/>
-<wire x1="7.62" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
-<label x="30.48" y="10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="83.82" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
-<label x="93.98" y="121.92" size="1.778" layer="95" rot="R180"/>
-<pinref part="J5" gate="G$1" pin="10"/>
+<wire x1="7.62" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
+<label x="12.7" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -28731,16 +28732,16 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="X6" gate="-1" pin="S"/>
 <pinref part="IC4" gate="A" pin="O2"/>
-<wire x1="-175.26" y1="190.5" x2="-185.42" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="-182.88" y1="190.5" x2="-185.42" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="X6" gate="-2" pin="S"/>
 <pinref part="IC4" gate="A" pin="O3"/>
-<wire x1="-175.26" y1="187.96" x2="-185.42" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="-182.88" y1="187.96" x2="-185.42" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -28862,6 +28863,13 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="XTAL1"/>
 <wire x1="-66.04" y1="116.84" x2="-63.5" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="O1"/>
+<pinref part="X4" gate="-1" pin="S"/>
+<wire x1="-182.88" y1="193.04" x2="-185.42" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
