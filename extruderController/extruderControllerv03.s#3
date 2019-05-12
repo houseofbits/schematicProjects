@@ -26511,6 +26511,187 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 </deviceset>
 </devicesets>
 </library>
+<library name="con-samtec" urn="urn:adsk.eagle:library:184">
+<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TSW-102-XX-G-D" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+Source: Samtec TSW.pdf</description>
+<wire x1="-2.669" y1="2.425" x2="2.669" y2="2.425" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="2.425" x2="2.669" y2="-2.425" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="-2.425" x2="-2.669" y2="-2.425" width="0.2032" layer="21"/>
+<wire x1="-2.669" y1="-2.425" x2="-2.669" y2="2.425" width="0.2032" layer="21"/>
+<pad name="1" x="1.27" y="-1.27" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="1.27" y="1.27" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="-1.27" y="-1.27" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="-1.27" y="1.27" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="1.062" y="-3.818" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<text x="0.887" y="2.744" size="1.1" layer="21" font="vector" rot="SR0">2</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.62" y1="-1.62" x2="-0.92" y2="-0.92" layer="51"/>
+<rectangle x1="-1.62" y1="0.92" x2="-0.92" y2="1.62" layer="51"/>
+<rectangle x1="0.92" y1="-1.62" x2="1.62" y2="-0.92" layer="51"/>
+<rectangle x1="0.92" y1="0.92" x2="1.62" y2="1.62" layer="51"/>
+</package>
+<package name="TSW-102-08-G-D-RA" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+Source: Samtec TSW.pdf</description>
+<wire x1="-2.669" y1="-2.046" x2="2.669" y2="-2.046" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="-2.046" x2="2.669" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="-0.106" x2="-2.669" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-2.669" y1="-0.106" x2="-2.669" y2="-2.046" width="0.2032" layer="21"/>
+<pad name="1" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="1.27" y="4.064" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="-1.27" y="4.064" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="-3.175" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="2.555" y="0.775" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<text x="2.52" y="3.29" size="1.1" layer="21" font="vector" rot="SR0">2</text>
+<rectangle x1="-1.524" y1="0" x2="-1.016" y2="4.318" layer="51"/>
+<rectangle x1="1.016" y1="0" x2="1.524" y2="4.318" layer="51"/>
+<rectangle x1="-1.524" y1="-7.89" x2="-1.016" y2="-2.04" layer="21"/>
+<rectangle x1="1.016" y1="-7.89" x2="1.524" y2="-2.04" layer="21"/>
+</package>
+<package name="TSW-102-XX-G-Q" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+Source: Samtec TSW.pdf</description>
+<wire x1="-2.669" y1="3.695" x2="2.669" y2="3.695" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="3.695" x2="2.669" y2="-3.695" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="-3.695" x2="-2.669" y2="-3.695" width="0.2032" layer="21"/>
+<wire x1="-2.669" y1="-3.695" x2="-2.669" y2="3.695" width="0.2032" layer="21"/>
+<pad name="1" x="1.27" y="-2.54" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="1.27" y="2.54" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="-1.27" y="-2.54" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="-1.27" y="2.54" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="1.112" y="-5.138" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<text x="1.012" y="3.989" size="1.1" layer="21" font="vector" rot="SR0">2</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.62" y1="-2.89" x2="-0.92" y2="-2.19" layer="51"/>
+<rectangle x1="-1.62" y1="2.19" x2="-0.92" y2="2.89" layer="51"/>
+<rectangle x1="0.92" y1="-2.89" x2="1.62" y2="-2.19" layer="51"/>
+<rectangle x1="0.92" y1="2.19" x2="1.62" y2="2.89" layer="51"/>
+</package>
+<package name="TSW-102-08-G-Q-RA" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+Source: Samtec TSW.pdf</description>
+<wire x1="-2.669" y1="-2.046" x2="2.669" y2="-2.046" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="-2.046" x2="2.669" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="2.669" y1="-0.106" x2="-2.669" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-2.669" y1="-0.106" x2="-2.669" y2="-2.046" width="0.2032" layer="21"/>
+<pad name="1" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="1.27" y="6.604" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="-1.27" y="6.604" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="2.63" y="1.1" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<text x="2.57" y="6.165" size="1.1" layer="21" font="vector" rot="SR0">2</text>
+<text x="-3.175" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="0" x2="-1.016" y2="6.858" layer="51"/>
+<rectangle x1="1.016" y1="0" x2="1.524" y2="6.858" layer="51"/>
+<rectangle x1="-1.524" y1="-7.89" x2="-1.016" y2="-2.04" layer="21"/>
+<rectangle x1="1.016" y1="-7.89" x2="1.524" y2="-2.04" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MPINV" library_version="2">
+<text x="-1.27" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="MPIN" library_version="2">
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TSW-102-*-G" prefix="X" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+Source: Samtec TSW.pdf</description>
+<gates>
+<gate name="-1" symbol="MPINV" x="-7.62" y="0" addlevel="always"/>
+<gate name="-2" symbol="MPIN" x="10.16" y="0" addlevel="always"/>
+<gate name="-3" symbol="MPIN" x="-7.62" y="-2.54" addlevel="always"/>
+<gate name="-4" symbol="MPIN" x="10.16" y="-2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="-D" package="TSW-102-XX-G-D">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+</connects>
+<technologies>
+<technology name="07">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="TSW-102-07-G-D" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+<technology name="08">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="TSW-102-07-G-D" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-D-RA" package="TSW-102-08-G-D-RA">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+</connects>
+<technologies>
+<technology name="08">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="TSW-102-08-G-D-RA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-Q" package="TSW-102-XX-G-Q">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+</connects>
+<technologies>
+<technology name="07">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="TSW-102-07-G-Q" constant="no"/>
+</technology>
+<technology name="08">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="TSW-102-07-G-Q" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-Q-RA" package="TSW-102-08-G-Q-RA">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+</connects>
+<technologies>
+<technology name="08">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="TSW-102-08-G-Q-RA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26663,6 +26844,7 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="27"/>
 <part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2051" device=""/>
+<part name="X5" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-102-*-G" device="-D" technology="07"/>
 </parts>
 <sheets>
 <sheet>
@@ -27271,6 +27453,19 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 </instance>
 <instance part="X4" gate="-5" x="-139.7" y="165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="-142.24" y="165.862" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X5" gate="-1" x="86.36" y="248.92" smashed="yes">
+<attribute name="VALUE" x="85.09" y="250.19" size="1.778" layer="96"/>
+<attribute name="NAME" x="88.9" y="248.158" size="1.524" layer="95"/>
+</instance>
+<instance part="X5" gate="-2" x="104.14" y="248.92" smashed="yes">
+<attribute name="NAME" x="106.68" y="248.158" size="1.524" layer="95"/>
+</instance>
+<instance part="X5" gate="-3" x="86.36" y="246.38" smashed="yes">
+<attribute name="NAME" x="88.9" y="245.618" size="1.524" layer="95"/>
+</instance>
+<instance part="X5" gate="-4" x="104.14" y="246.38" smashed="yes">
+<attribute name="NAME" x="106.68" y="245.618" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>

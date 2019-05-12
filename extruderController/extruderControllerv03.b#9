@@ -199,11 +199,11 @@
 <text x="39.37" y="50.546" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">ISP</text>
 <text x="82.296" y="31.75" size="1.778" layer="25" font="vector" ratio="15" rot="SR90">I/O</text>
 <text x="7.366" y="49.784" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">+12V</text>
-<text x="77.47" y="45.72" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">5V</text>
-<text x="69.596" y="45.72" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">GND</text>
+<text x="77.47" y="45.974" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">5V</text>
+<text x="69.596" y="45.974" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">GND</text>
 <text x="76.2" y="43.942" size="1.778" layer="25" font="vector" ratio="15" rot="SR180">UART0</text>
-<text x="69.596" y="50.038" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">RX</text>
-<text x="77.47" y="50.038" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">TX</text>
+<text x="69.596" y="47.752" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">RX</text>
+<text x="77.47" y="47.752" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">TX</text>
 <polygon width="0.1" layer="25">
 <vertex x="61.668125" y="27.324396875"/>
 <vertex x="61.8566875" y="27.25841875"/>

@@ -28494,9 +28494,9 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <label x="12.7" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="A" pin="I2"/>
-<wire x1="-210.82" y1="190.5" x2="-220.98" y2="190.5" width="0.1524" layer="91"/>
-<label x="-220.98" y="190.5" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="I1"/>
+<wire x1="-210.82" y1="193.04" x2="-220.98" y2="193.04" width="0.1524" layer="91"/>
+<label x="-220.98" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -28684,9 +28684,9 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/445/615016137621-537831.pd
 <label x="30.48" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="A" pin="I1"/>
-<wire x1="-210.82" y1="193.04" x2="-220.98" y2="193.04" width="0.1524" layer="91"/>
-<label x="-220.98" y="193.04" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="I2"/>
+<wire x1="-210.82" y1="190.5" x2="-220.98" y2="190.5" width="0.1524" layer="91"/>
+<label x="-220.98" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF4" class="0">

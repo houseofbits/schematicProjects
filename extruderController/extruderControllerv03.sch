@@ -27525,11 +27525,6 @@ Source: Samtec TSW.pdf</description>
 <wire x1="7.62" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="91"/>
 <label x="12.7" y="-10.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC4" gate="A" pin="I1"/>
-<wire x1="-210.82" y1="193.04" x2="-220.98" y2="193.04" width="0.1524" layer="91"/>
-<label x="-220.98" y="193.04" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PA4" class="0">
 <segment>
@@ -27668,6 +27663,11 @@ Source: Samtec TSW.pdf</description>
 <pinref part="IC3" gate="G$1" pin="(OC3A/AIN1)PE3"/>
 <wire x1="7.62" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 <label x="30.48" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="A" pin="I1"/>
+<wire x1="-210.82" y1="193.04" x2="-220.98" y2="193.04" width="0.1524" layer="91"/>
+<label x="-220.98" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PE0" class="0">
