@@ -156,7 +156,7 @@
 <text x="80.264" y="7.366" size="1.016" layer="25" font="vector" ratio="20" rot="R90">STEP</text>
 <text x="69.85" y="7.62" size="1.016" layer="25" font="vector" ratio="20" rot="R90">GND</text>
 <text x="72.644" y="7.62" size="1.016" layer="25" font="vector" ratio="20" rot="R90">5V</text>
-<text x="85.852" y="15.494" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">SCREW ROTATION</text>
+<text x="85.852" y="15.494" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">HOPPER</text>
 <text x="42.672" y="7.62" size="1.016" layer="25" font="vector" ratio="20" rot="R90">5V</text>
 <text x="47.752" y="7.62" size="1.016" layer="25" font="vector" ratio="20" rot="R90">5V</text>
 <text x="52.832" y="7.62" size="1.016" layer="25" font="vector" ratio="20" rot="R90">5V</text>
@@ -182,7 +182,7 @@
 <text x="86.106" y="23.622" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">GND</text>
 <text x="85.852" y="18.288" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">5V</text>
 <text x="86.106" y="12.954" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">GND</text>
-<text x="86.106" y="26.162" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">HOPPER LEVEL</text>
+<text x="86.106" y="26.162" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">SCREW</text>
 <text x="10.16" y="22.352" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">12V</text>
 <text x="10.16" y="27.432" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">12V</text>
 <text x="10.16" y="32.512" size="1.016" layer="25" font="vector" ratio="20" rot="SR180">12V</text>
