@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25635,8 +25635,8 @@ Source: Samtec TSW.pdf</description>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.3" package3d_urn="urn:adsk.eagle:package:14283/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.3" package3d_urn="urn:adsk.eagle:package:14283/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.3" package3d_urn="urn:adsk.eagle:package:14283/1"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -25687,10 +25687,10 @@ Source: Samtec TSW.pdf</description>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X8" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="X9" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1"/>
@@ -25922,12 +25922,12 @@ Source: Samtec TSW.pdf</description>
 <attribute name="VALUE" x="-314.706" y="28.0162" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="-99.06" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="-98.679" y="125.476" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-103.759" y="125.476" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="-97.536" y="124.841" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-102.616" y="129.921" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="-99.06" y="116.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="-98.679" y="115.316" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-103.759" y="115.316" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="-97.536" y="114.681" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-102.616" y="119.761" size="1.778" layer="96"/>
 </instance>
 <instance part="GND13" gate="1" x="-104.14" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-106.68" y="109.22" size="1.778" layer="96"/>
@@ -26058,7 +26058,7 @@ Source: Samtec TSW.pdf</description>
 </instance>
 <instance part="R10" gate="G$1" x="-320.04" y="96.52" smashed="yes">
 <attribute name="NAME" x="-323.85" y="98.0186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-318.77" y="98.298" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-316.23" y="98.298" size="1.778" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="-320.04" y="91.44" smashed="yes">
 <attribute name="NAME" x="-318.77" y="92.9386" size="1.778" layer="95"/>
@@ -26118,19 +26118,19 @@ Source: Samtec TSW.pdf</description>
 </instance>
 <instance part="R14" gate="G$1" x="-157.48" y="185.42" smashed="yes">
 <attribute name="NAME" x="-161.29" y="186.9186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-161.29" y="182.118" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-153.67" y="184.658" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="-162.56" y="182.88" smashed="yes">
 <attribute name="NAME" x="-166.37" y="184.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-166.37" y="179.578" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-158.75" y="182.118" size="1.778" layer="96"/>
 </instance>
 <instance part="R16" gate="G$1" x="-167.64" y="180.34" smashed="yes">
 <attribute name="NAME" x="-171.45" y="181.8386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-171.45" y="177.038" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-163.83" y="179.578" size="1.778" layer="96"/>
 </instance>
 <instance part="R17" gate="G$1" x="-172.72" y="177.8" smashed="yes">
 <attribute name="NAME" x="-176.53" y="179.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-176.53" y="174.498" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-168.91" y="177.038" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="-86.36" y="93.98" smashed="yes">
 <attribute name="NAME" x="-84.836" y="94.361" size="1.778" layer="95"/>
