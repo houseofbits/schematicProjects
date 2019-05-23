@@ -26058,7 +26058,7 @@ Source: Samtec TSW.pdf</description>
 </instance>
 <instance part="R10" gate="G$1" x="-320.04" y="96.52" smashed="yes">
 <attribute name="NAME" x="-323.85" y="98.0186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-318.77" y="98.298" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-316.23" y="98.298" size="1.778" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="-320.04" y="91.44" smashed="yes">
 <attribute name="NAME" x="-318.77" y="92.9386" size="1.778" layer="95"/>

@@ -25687,10 +25687,6 @@ Source: Samtec TSW.pdf</description>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X8" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="X9" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1"/>
@@ -26115,22 +26111,6 @@ Source: Samtec TSW.pdf</description>
 </instance>
 <instance part="X9" gate="-3" x="104.14" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.6" y="59.182" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="R14" gate="G$1" x="-157.48" y="185.42" smashed="yes">
-<attribute name="NAME" x="-161.29" y="186.9186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-153.67" y="184.658" size="1.778" layer="96"/>
-</instance>
-<instance part="R15" gate="G$1" x="-162.56" y="182.88" smashed="yes">
-<attribute name="NAME" x="-166.37" y="184.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-158.75" y="182.118" size="1.778" layer="96"/>
-</instance>
-<instance part="R16" gate="G$1" x="-167.64" y="180.34" smashed="yes">
-<attribute name="NAME" x="-171.45" y="181.8386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-163.83" y="179.578" size="1.778" layer="96"/>
-</instance>
-<instance part="R17" gate="G$1" x="-172.72" y="177.8" smashed="yes">
-<attribute name="NAME" x="-176.53" y="179.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-168.91" y="177.038" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="-86.36" y="93.98" smashed="yes">
 <attribute name="NAME" x="-84.836" y="94.361" size="1.778" layer="95"/>
@@ -27158,59 +27138,32 @@ Source: Samtec TSW.pdf</description>
 <label x="10.16" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="X1" gate="-1" pin="S"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="X1" gate="-3" pin="S"/>
-<wire x1="-152.4" y1="182.88" x2="-157.48" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="A" pin="O5"/>
+<wire x1="-152.4" y1="182.88" x2="-185.42" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="X1" gate="-5" pin="S"/>
-<wire x1="-152.4" y1="180.34" x2="-162.56" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="A" pin="O6"/>
+<wire x1="-185.42" y1="180.34" x2="-152.4" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="X1" gate="-7" pin="S"/>
-<wire x1="-152.4" y1="177.8" x2="-167.64" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="A" pin="O7"/>
+<wire x1="-152.4" y1="177.8" x2="-185.42" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="O4"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="-185.42" y1="185.42" x2="-162.56" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="A" pin="O5"/>
-<wire x1="-167.64" y1="182.88" x2="-185.42" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="O6"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="-185.42" y1="180.34" x2="-172.72" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="A" pin="O7"/>
-<wire x1="-177.8" y1="177.8" x2="-185.42" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="185.42" x2="-152.4" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$41" class="0">
