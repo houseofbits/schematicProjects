@@ -24854,8 +24854,7 @@ Source: www.atmel.com .. doc2503.pdf</description>
 <plain>
 <text x="-106.68" y="218.44" size="5.08" layer="91">Power supply, 12V in, 5vout</text>
 <text x="-106.68" y="160.02" size="5.08" layer="95">ATMEGA</text>
-<text x="-243.84" y="218.44" size="5.08" layer="91">Heater SSR output x4</text>
-<text x="-243.84" y="210.82" size="5.08" layer="91">Main stepper control output</text>
+<text x="-243.84" y="215.9" size="5.08" layer="91">Stepper1, Stepper2</text>
 <text x="66.04" y="76.2" size="5.08" layer="91">End stop</text>
 <text x="66.04" y="256.54" size="5.08" layer="91">RS485 communication</text>
 <text x="66.04" y="27.94" size="5.08" layer="91">Tension sensor</text>
@@ -25581,13 +25580,6 @@ Source: www.atmel.com .. doc2503.pdf</description>
 <junction x="-68.58" y="119.38"/>
 </segment>
 </net>
-<net name="PF6" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="185.42" x2="30.48" y2="177.8" width="0.1524" layer="91"/>
-<label x="30.48" y="177.8" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
 <wire x1="63.5" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91" style="longdash"/>
@@ -25747,6 +25739,11 @@ Source: www.atmel.com .. doc2503.pdf</description>
 <pinref part="J3" gate="G$1" pin="10"/>
 <wire x1="119.38" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <label x="121.92" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="185.42" x2="30.48" y2="177.8" width="0.1524" layer="91"/>
+<label x="30.48" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA2" class="0">
