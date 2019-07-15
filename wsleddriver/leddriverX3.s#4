@@ -9548,6 +9548,10 @@ Switches electronic signals</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1uF"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1uF"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9688,6 +9692,20 @@ Switches electronic signals</description>
 <instance part="P+2" gate="1" x="109.22" y="15.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="111.76" y="15.24" size="1.778" layer="96"/>
 </instance>
+<instance part="C2" gate="G$1" x="106.68" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="106.299" y="75.184" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="111.379" y="75.184" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND9" gate="1" x="104.14" y="71.12" smashed="yes">
+<attribute name="VALUE" x="101.6" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="132.08" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="131.699" y="75.184" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="136.779" y="75.184" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="129.54" y="71.12" smashed="yes">
+<attribute name="VALUE" x="127" y="68.58" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9763,6 +9781,14 @@ Switches electronic signals</description>
 <pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="DIN_IN" class="0">
 <segment>
@@ -9778,14 +9804,14 @@ Switches electronic signals</description>
 </net>
 <net name="DOUT_OUT" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="DO"/>
-<wire x1="91.44" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
-<label x="106.68" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IN/OUT" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="DO"/>
+<wire x1="91.44" y1="7.62" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
+<label x="106.68" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NEG_R" class="0">
@@ -9860,6 +9886,16 @@ Switches electronic signals</description>
 <wire x1="91.44" y1="15.24" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <junction x="91.44" y="15.24"/>
 <label x="91.44" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
+<label x="116.84" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<label x="142.24" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R" class="0">
@@ -9967,13 +10003,10 @@ Switches electronic signals</description>
 <net name="N$11" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="DO"/>
-<wire x1="91.44" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="DO"/>
-<wire x1="91.44" y1="7.62" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="27.94" x2="121.92" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -9988,6 +10021,15 @@ Switches electronic signals</description>
 <pinref part="IC2" gate="G$1" pin="DIN"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="DO"/>
+<wire x1="91.44" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="48.26" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

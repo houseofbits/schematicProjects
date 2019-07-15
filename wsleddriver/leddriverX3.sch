@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9441,6 +9441,56 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD2,54-5,08" urn="urn:adsk.eagle:footprint:30823/1" library_version="1">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMD2,54-5,08" urn="urn:adsk.eagle:package:30841/1" type="box" library_version="1">
+<description>SMD PAD</description>
+<packageinstances>
+<packageinstance name="SMD2,54-5,08"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PAD" urn="urn:adsk.eagle:symbol:30808/1" library_version="1">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD5" urn="urn:adsk.eagle:component:30859/1" prefix="PAD" uservalue="yes" library_version="1">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD2,54-5,08">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30841/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9520,6 +9570,15 @@ Switches electronic signals</description>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
+<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD8" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD9" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9770,6 +9829,42 @@ Switches electronic signals</description>
 <attribute name="NAME" x="105.41" y="176.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.41" y="171.958" size="1.778" layer="96"/>
 </instance>
+<instance part="PAD1" gate="1" x="10.16" y="33.02" smashed="yes">
+<attribute name="NAME" x="9.017" y="34.8742" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="29.718" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD2" gate="1" x="10.16" y="27.94" smashed="yes">
+<attribute name="NAME" x="9.017" y="29.7942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="24.638" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD3" gate="1" x="10.16" y="22.86" smashed="yes">
+<attribute name="NAME" x="9.017" y="24.7142" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="19.558" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD4" gate="1" x="10.16" y="12.7" smashed="yes">
+<attribute name="NAME" x="9.017" y="14.5542" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="9.398" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD5" gate="1" x="10.16" y="7.62" smashed="yes">
+<attribute name="NAME" x="9.017" y="9.4742" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="4.318" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD6" gate="1" x="10.16" y="2.54" smashed="yes">
+<attribute name="NAME" x="9.017" y="4.3942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="-0.762" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD7" gate="1" x="10.16" y="-5.08" smashed="yes">
+<attribute name="NAME" x="9.017" y="-3.2258" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="-8.382" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD8" gate="1" x="10.16" y="-10.16" smashed="yes">
+<attribute name="NAME" x="9.017" y="-8.3058" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="-13.462" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD9" gate="1" x="10.16" y="-15.24" smashed="yes">
+<attribute name="NAME" x="9.017" y="-13.3858" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.017" y="-18.542" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9934,18 +10029,9 @@ Switches electronic signals</description>
 </net>
 <net name="NEG_R" class="0">
 <segment>
-<pinref part="TR" gate="NMOS" pin="D"/>
-<wire x1="7.62" y1="119.38" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
-<label x="12.7" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="20.32" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <label x="22.86" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TR1" gate="NMOS" pin="D"/>
-<wire x1="7.62" y1="152.4" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
-<label x="12.7" y="152.4" size="1.778" layer="95"/>
+<pinref part="PAD1" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="TR2" gate="NMOS" pin="D"/>
@@ -9955,18 +10041,9 @@ Switches electronic signals</description>
 </net>
 <net name="NEG_G" class="0">
 <segment>
-<pinref part="TG" gate="NMOS" pin="D"/>
-<wire x1="63.5" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
-<label x="68.58" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="20.32" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <label x="22.86" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TG1" gate="NMOS" pin="D"/>
-<wire x1="63.5" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
-<label x="68.58" y="152.4" size="1.778" layer="95"/>
+<pinref part="PAD2" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="TG2" gate="NMOS" pin="D"/>
@@ -9976,18 +10053,9 @@ Switches electronic signals</description>
 </net>
 <net name="NEG_B" class="0">
 <segment>
-<pinref part="TB" gate="NMOS" pin="D"/>
-<wire x1="121.92" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="127" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="20.32" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="22.86" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TB1" gate="NMOS" pin="D"/>
-<wire x1="121.92" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
-<label x="127" y="152.4" size="1.778" layer="95"/>
+<pinref part="PAD3" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="TB2" gate="NMOS" pin="D"/>
@@ -10050,16 +10118,6 @@ Switches electronic signals</description>
 <label x="58.42" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="111.76" x2="-20.32" y2="111.76" width="0.1524" layer="91"/>
-<label x="-20.32" y="111.76" size="1.778" layer="95"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="-10.16" y1="144.78" x2="-20.32" y2="144.78" width="0.1524" layer="91"/>
-<label x="-20.32" y="144.78" size="1.778" layer="95"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="-10.16" y1="175.26" x2="-20.32" y2="175.26" width="0.1524" layer="91"/>
 <label x="-20.32" y="175.26" size="1.778" layer="95"/>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -10072,16 +10130,6 @@ Switches electronic signals</description>
 <label x="58.42" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
-<label x="35.56" y="111.76" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="45.72" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
-<label x="35.56" y="144.78" size="1.778" layer="95"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="45.72" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
 <label x="35.56" y="175.26" size="1.778" layer="95"/>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -10092,16 +10140,6 @@ Switches electronic signals</description>
 <pinref part="IC1" gate="G$1" pin="B"/>
 <wire x1="66.04" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <label x="58.42" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="104.14" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
-<label x="93.98" y="111.76" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="104.14" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
-<label x="93.98" y="144.78" size="1.778" layer="95"/>
-<pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
@@ -10139,12 +10177,22 @@ Switches electronic signals</description>
 <wire x1="66.04" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <label x="58.42" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-10.16" y1="144.78" x2="-20.32" y2="144.78" width="0.1524" layer="91"/>
+<label x="-20.32" y="144.78" size="1.778" layer="95"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="G2" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="G"/>
 <wire x1="66.04" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 <label x="58.42" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
+<label x="35.56" y="144.78" size="1.778" layer="95"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="B2" class="0">
@@ -10153,12 +10201,22 @@ Switches electronic signals</description>
 <wire x1="66.04" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
 <label x="58.42" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="104.14" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
+<label x="93.98" y="144.78" size="1.778" layer="95"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="R3" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="R"/>
 <wire x1="66.04" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
 <label x="58.42" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-10.16" y1="111.76" x2="-20.32" y2="111.76" width="0.1524" layer="91"/>
+<label x="-20.32" y="111.76" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="G3" class="0">
@@ -10167,12 +10225,22 @@ Switches electronic signals</description>
 <wire x1="66.04" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <label x="58.42" y="12.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="45.72" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
+<label x="35.56" y="111.76" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="B3" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="B"/>
 <wire x1="66.04" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 <label x="58.42" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="104.14" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="93.98" y="111.76" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10253,6 +10321,48 @@ Switches electronic signals</description>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <junction x="114.3" y="175.26"/>
+</segment>
+</net>
+<net name="NEG_R2" class="0">
+<segment>
+<pinref part="TR1" gate="NMOS" pin="D"/>
+<wire x1="7.62" y1="152.4" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
+<label x="12.7" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NEG_G2" class="0">
+<segment>
+<pinref part="TG1" gate="NMOS" pin="D"/>
+<wire x1="63.5" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
+<label x="68.58" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NEG_B2" class="0">
+<segment>
+<pinref part="TB1" gate="NMOS" pin="D"/>
+<wire x1="121.92" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
+<label x="127" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NEG_R3" class="0">
+<segment>
+<pinref part="TR" gate="NMOS" pin="D"/>
+<wire x1="7.62" y1="119.38" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
+<label x="12.7" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NEG_G3" class="0">
+<segment>
+<pinref part="TG" gate="NMOS" pin="D"/>
+<wire x1="63.5" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<label x="68.58" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NEG_B3" class="0">
+<segment>
+<pinref part="TB" gate="NMOS" pin="D"/>
+<wire x1="121.92" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
+<label x="127" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
