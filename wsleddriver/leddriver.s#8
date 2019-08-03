@@ -10028,9 +10028,9 @@ Switches electronic signals</description>
 <attribute name="NAME" x="66.04" y="86.36" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="66.04" y="83.82" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="-35.56" y="83.82" smashed="yes">
-<attribute name="NAME" x="-30.48" y="83.82" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-30.48" y="81.28" size="1.778" layer="96" font="vector"/>
+<instance part="Q3" gate="NMOS" x="-25.4" y="83.82" smashed="yes">
+<attribute name="NAME" x="-20.32" y="83.82" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-20.32" y="81.28" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9491,6 +9491,165 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="YC358T">
+<description>&lt;b&gt;YC358T&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.54" y="-1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-1.27" y="-1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="4" x="1.27" y="-1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="5" x="2.54" y="-1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="7" x="1.27" y="1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="8" x="0" y="1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="9" x="-1.27" y="1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<smd name="10" x="-2.54" y="1.375" dx="1.15" dy="0.9" layer="1" rot="R90"/>
+<text x="-0.397" y="0.051" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.397" y="0.051" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.2" y1="1.6" x2="3.2" y2="1.6" width="0.2" layer="51"/>
+<wire x1="3.2" y1="1.6" x2="3.2" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="3.2" y1="-1.6" x2="-3.2" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="1.6" width="0.2" layer="51"/>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="1.6" width="0.2" layer="21"/>
+<wire x1="3.2" y1="1.6" x2="3.2" y2="-1.6" width="0.2" layer="21"/>
+<circle x="-2.527" y="-2.394" radius="0.025" width="0.2" layer="25"/>
+</package>
+<package name="YC324JK07100RL">
+<description>&lt;b&gt;YC324-JK-07100RL-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.905" y="-1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="5" x="-1.905" y="1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="6" x="-0.635" y="1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="7" x="0.635" y="1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<smd name="8" x="1.905" y="1.525" dx="0.85" dy="0.71" layer="1" rot="R90"/>
+<text x="0" y="-0.225" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.225" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.54" y1="1.6" x2="2.54" y2="1.6" width="0.2" layer="51"/>
+<wire x1="2.54" y1="1.6" x2="2.54" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="2.54" y1="-1.6" x2="-2.54" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="-2.54" y1="-1.6" x2="-2.54" y2="1.6" width="0.2" layer="51"/>
+<wire x1="-3.04" y1="2.45" x2="3.04" y2="2.45" width="0.1" layer="51"/>
+<wire x1="3.04" y1="2.45" x2="3.04" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="3.04" y1="-2.9" x2="-3.04" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-2.9" x2="-3.04" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="1.6" x2="-2.54" y2="-1.525" width="0.1" layer="21"/>
+<wire x1="2.54" y1="1.6" x2="2.54" y2="-1.525" width="0.1" layer="21"/>
+<wire x1="-2" y1="-2.3" x2="-2" y2="-2.3" width="0.2" layer="21"/>
+<wire x1="-2" y1="-2.3" x2="-1.8" y2="-2.3" width="0.2" layer="21" curve="-180"/>
+<wire x1="-1.8" y1="-2.3" x2="-1.8" y2="-2.3" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="-2.3" x2="-2" y2="-2.3" width="0.2" layer="21" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="YC358TJK-0710KL">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+<pin name="5" x="0" y="-10.16" length="middle"/>
+<pin name="6" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="7" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="8" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="9" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="10" x="22.86" y="-10.16" length="middle" rot="R180"/>
+</symbol>
+<symbol name="YC324-JK-07100RL">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+<pin name="5" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="6" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="7" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="8" x="20.32" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="YC358TJK-0710KL" prefix="RN">
+<description>&lt;b&gt;Resistor Networks &amp; Arrays 10K   5% CONVEX SQUARE  8X1225&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/YC358TJK-0710KL.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="YC358TJK-0710KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="YC358T">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Resistor Networks &amp; Arrays 10K   5% CONVEX SQUARE  8X1225" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="YC358TJK-0710KL" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-YC358TJK-0710KL" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC358TJK-0710KL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="YC324-JK-07100RL" prefix="RN">
+<description>&lt;b&gt;Resistor Networks &amp; Arrays&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/YC324-JK-07100RL.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="YC324-JK-07100RL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="YC324JK07100RL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Resistor Networks &amp; Arrays" constant="no"/>
+<attribute name="HEIGHT" value="0.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="YC324-JK-07100RL" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-YC324-JK-07100RL" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-YC324-JK-07100RL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9579,6 +9738,12 @@ Switches electronic signals</description>
 <part name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="PAD8" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="PAD9" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="RN1" library="SamacSys_Parts" deviceset="YC358TJK-0710KL" device=""/>
+<part name="RN2" library="SamacSys_Parts" deviceset="YC358TJK-0710KL" device=""/>
+<part name="RN3" library="SamacSys_Parts" deviceset="YC358TJK-0710KL" device=""/>
+<part name="RN4" library="SamacSys_Parts" deviceset="YC324-JK-07100RL" device=""/>
+<part name="RN5" library="SamacSys_Parts" deviceset="YC324-JK-07100RL" device=""/>
+<part name="RN6" library="SamacSys_Parts" deviceset="YC324-JK-07100RL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9864,6 +10029,30 @@ Switches electronic signals</description>
 <instance part="PAD9" gate="1" x="10.16" y="-15.24" smashed="yes">
 <attribute name="NAME" x="9.017" y="-13.3858" size="1.778" layer="95"/>
 <attribute name="VALUE" x="9.017" y="-18.542" size="1.778" layer="96"/>
+</instance>
+<instance part="RN1" gate="G$1" x="-104.14" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="-96.52" y="120.65" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-99.06" y="120.65" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="RN2" gate="G$1" x="-124.46" y="96.52" smashed="yes">
+<attribute name="NAME" x="-105.41" y="104.14" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-105.41" y="101.6" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="RN3" gate="G$1" x="-124.46" y="71.12" smashed="yes">
+<attribute name="NAME" x="-105.41" y="78.74" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-105.41" y="76.2" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="RN4" gate="G$1" x="-111.76" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="-119.38" y="158.75" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-116.84" y="158.75" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="RN5" gate="G$1" x="-76.2" y="99.06" smashed="yes">
+<attribute name="NAME" x="-59.69" y="106.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-59.69" y="104.14" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="RN6" gate="G$1" x="-76.2" y="68.58" smashed="yes">
+<attribute name="NAME" x="-59.69" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-59.69" y="73.66" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -10363,6 +10552,36 @@ Switches electronic signals</description>
 <pinref part="TB" gate="NMOS" pin="D"/>
 <wire x1="121.92" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <label x="127" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="RN1" gate="G$1" pin="7"/>
+<pinref part="RN1" gate="G$1" pin="2"/>
+<wire x1="-106.68" y1="116.84" x2="-106.68" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="RN4" gate="G$1" pin="3"/>
+<wire x1="-106.68" y1="139.7" x2="-106.68" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-106.68" y="139.7"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="RN4" gate="G$1" pin="2"/>
+<pinref part="RN1" gate="G$1" pin="8"/>
+<wire x1="-109.22" y1="142.24" x2="-109.22" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="G$1" pin="3"/>
+<wire x1="-109.22" y1="116.84" x2="-109.22" y2="139.7" width="0.1524" layer="91"/>
+<junction x="-109.22" y="116.84"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="RN1" gate="G$1" pin="9"/>
+<pinref part="RN1" gate="G$1" pin="4"/>
+<wire x1="-111.76" y1="116.84" x2="-111.76" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="RN4" gate="G$1" pin="1"/>
+<wire x1="-111.76" y1="139.7" x2="-111.76" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-111.76" y="139.7"/>
 </segment>
 </net>
 </nets>

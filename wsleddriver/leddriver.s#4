@@ -9871,6 +9871,11 @@ Switches electronic signals</description>
 <wire x1="38.1" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <label x="48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="20.32" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="22.86" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="NEG_G" class="0">
 <segment>
@@ -9883,6 +9888,11 @@ Switches electronic signals</description>
 <wire x1="38.1" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <label x="48.26" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="20.32" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="22.86" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="NEG_B" class="0">
 <segment>
@@ -9894,6 +9904,11 @@ Switches electronic signals</description>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="38.1" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 <label x="48.26" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="20.32" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<label x="22.86" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9976,24 +9991,6 @@ Switches electronic signals</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <junction x="114.3" y="111.76"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="PAD1" gate="1" pin="P"/>
-<wire x1="20.32" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="PAD2" gate="1" pin="P"/>
-<wire x1="20.32" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="PAD3" gate="1" pin="P"/>
-<wire x1="20.32" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

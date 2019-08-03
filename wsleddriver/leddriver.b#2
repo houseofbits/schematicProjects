@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,10 +8,10 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -151,16 +151,22 @@
 <text x="28.829" y="1.651" size="1.27" layer="25" font="vector" ratio="15">R</text>
 <text x="28.829" y="6.223" size="1.27" layer="25" font="vector" ratio="15">G</text>
 <text x="28.829" y="10.795" size="1.27" layer="25" font="vector" ratio="15">B</text>
-<text x="12.827" y="8.255" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">WS2811</text>
-<text x="17.653" y="1.143" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">R1</text>
-<text x="17.653" y="3.175" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">R2</text>
-<text x="17.653" y="7.239" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">R4</text>
-<text x="17.653" y="9.398" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">R5</text>
-<text x="17.653" y="11.303" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">R6</text>
-<text x="17.653" y="5.334" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">R3</text>
-<text x="15.113" y="5.461" size="0.8128" layer="25" font="vector" ratio="15">C1</text>
+<text x="12.192" y="8.001" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">WS2811</text>
+<text x="21.59" y="1.778" size="0.8128" layer="25" font="vector" ratio="15">R1</text>
+<text x="21.59" y="3.81" size="0.8128" layer="25" font="vector" ratio="15">R2</text>
+<text x="21.59" y="7.874" size="0.8128" layer="25" font="vector" ratio="15">R4</text>
+<text x="21.59" y="9.906" size="0.8128" layer="25" font="vector" ratio="15">R5</text>
+<text x="21.59" y="11.938" size="0.8128" layer="25" font="vector" ratio="15">R6</text>
+<text x="21.59" y="5.842" size="0.8128" layer="25" font="vector" ratio="15">R3</text>
+<text x="15.24" y="5.461" size="0.8128" layer="25" font="vector" ratio="15">C1</text>
 <text x="7.239" y="11.557" size="0.8128" layer="25" font="vector" ratio="15">R8</text>
 <text x="6.35" y="6.858" size="0.8128" layer="25" font="vector" ratio="15">R7</text>
+<text x="21.59" y="11.049" size="0.6096" layer="25" font="vector" ratio="15">100</text>
+<text x="21.59" y="9.144" size="0.6096" layer="25" font="vector" ratio="15">10K</text>
+<text x="21.59" y="5.08" size="0.6096" layer="25" font="vector" ratio="15">10K</text>
+<text x="21.59" y="1.016" size="0.6096" layer="25" font="vector" ratio="15">10K</text>
+<text x="21.59" y="7.112" size="0.6096" layer="25" font="vector" ratio="15">100</text>
+<text x="21.971" y="3.048" size="0.6096" layer="25" font="vector" ratio="15">100</text>
 </plain>
 <libraries>
 <library name="adafruit_wsled">

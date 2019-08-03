@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9500,117 +9500,6 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-samtec" urn="urn:adsk.eagle:library:184">
-<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TSW-104-XX-G-S" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
-Source: Samtec TSW.pdf</description>
-<wire x1="-5.209" y1="1.155" x2="5.209" y2="1.155" width="0.2032" layer="21"/>
-<wire x1="5.209" y1="1.155" x2="5.209" y2="-1.155" width="0.2032" layer="21"/>
-<wire x1="5.209" y1="-1.155" x2="-5.209" y2="-1.155" width="0.2032" layer="21"/>
-<wire x1="-5.209" y1="-1.155" x2="-5.209" y2="1.155" width="0.2032" layer="21"/>
-<pad name="1" x="3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="2" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="3" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="4" x="-3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="3.552" y="-2.498" size="1.1" layer="21" font="vector" rot="SR0">1</text>
-<text x="-5.715" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.16" y1="-0.35" x2="-3.46" y2="0.35" layer="51"/>
-<rectangle x1="-1.62" y1="-0.35" x2="-0.92" y2="0.35" layer="51"/>
-<rectangle x1="0.92" y1="-0.35" x2="1.62" y2="0.35" layer="51"/>
-<rectangle x1="3.46" y1="-0.35" x2="4.16" y2="0.35" layer="51"/>
-</package>
-<package name="TSW-104-08-G-S-RA" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
-Source: Samtec TSW.pdf</description>
-<wire x1="-5.209" y1="-2.046" x2="5.209" y2="-2.046" width="0.2032" layer="21"/>
-<wire x1="5.209" y1="-2.046" x2="5.209" y2="-0.106" width="0.2032" layer="21"/>
-<wire x1="5.209" y1="-0.106" x2="-5.209" y2="-0.106" width="0.2032" layer="21"/>
-<wire x1="-5.209" y1="-0.106" x2="-5.209" y2="-2.046" width="0.2032" layer="21"/>
-<pad name="1" x="3.81" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="2" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="3" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="4" x="-3.81" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-5.715" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="5.092" y="1.152" size="1.1" layer="21" font="vector" rot="SR0">1</text>
-<rectangle x1="-4.064" y1="0" x2="-3.556" y2="1.778" layer="51"/>
-<rectangle x1="-1.524" y1="0" x2="-1.016" y2="1.778" layer="51"/>
-<rectangle x1="1.016" y1="0" x2="1.524" y2="1.778" layer="51"/>
-<rectangle x1="3.556" y1="0" x2="4.064" y2="1.778" layer="51"/>
-<rectangle x1="-4.064" y1="-7.89" x2="-3.556" y2="-2.04" layer="21"/>
-<rectangle x1="-1.524" y1="-7.89" x2="-1.016" y2="-2.04" layer="21"/>
-<rectangle x1="1.016" y1="-7.89" x2="1.524" y2="-2.04" layer="21"/>
-<rectangle x1="3.556" y1="-7.89" x2="4.064" y2="-2.04" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MPINV" library_version="2">
-<text x="-1.27" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="MPIN" library_version="2">
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TSW-104-*-G-S" prefix="X" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
-Source: Samtec TSW.pdf</description>
-<gates>
-<gate name="-1" symbol="MPINV" x="-1.27" y="2.54" addlevel="always"/>
-<gate name="-2" symbol="MPIN" x="-1.27" y="0" addlevel="always"/>
-<gate name="-3" symbol="MPIN" x="-1.27" y="-2.54" addlevel="always"/>
-<gate name="-4" symbol="MPIN" x="-1.27" y="-5.08" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="TSW-104-XX-G-S">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-<connect gate="-3" pin="1" pad="3"/>
-<connect gate="-4" pin="1" pad="4"/>
-</connects>
-<technologies>
-<technology name="07">
-<attribute name="MF" value="Samtec Inc." constant="no"/>
-<attribute name="MPN" value="TSW-104-07-G-S" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-</technology>
-<technology name="08">
-<attribute name="MF" value="Samtec Inc." constant="no"/>
-<attribute name="MPN" value="TSW-104-07-G-S" constant="no"/>
-<attribute name="OC_FARNELL" value="" constant="no"/>
-<attribute name="OC_NEWARK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-S-RA" package="TSW-104-08-G-S-RA">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-<connect gate="-3" pin="1" pad="3"/>
-<connect gate="-4" pin="1" pad="4"/>
-</connects>
-<technologies>
-<technology name="08">
-<attribute name="MF" value="Samtec Inc." constant="no"/>
-<attribute name="MPN" value="TSW-104-08-G-S-RA" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9649,8 +9538,6 @@ Source: Samtec TSW.pdf</description>
 <part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="3,81/1,4" device="" package3d_urn="urn:adsk.eagle:package:30835/1"/>
 <part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="3,81/1,4" device="" package3d_urn="urn:adsk.eagle:package:30835/1"/>
 <part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="3,81/1,4" device="" package3d_urn="urn:adsk.eagle:package:30835/1"/>
-<part name="X1" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-104-*-G-S" device="" technology="07"/>
-<part name="X2" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-104-*-G-S" device="" technology="07"/>
 </parts>
 <sheets>
 <sheet>
@@ -9756,32 +9643,6 @@ Source: Samtec TSW.pdf</description>
 <instance part="PAD3" gate="1" x="17.78" y="22.86" smashed="yes">
 <attribute name="NAME" x="16.637" y="24.7142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.637" y="19.558" size="1.778" layer="96"/>
-</instance>
-<instance part="X1" gate="-1" x="-54.61" y="60.96" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="62.23" size="1.778" layer="96"/>
-<attribute name="NAME" x="-52.07" y="60.198" size="1.524" layer="95"/>
-</instance>
-<instance part="X1" gate="-2" x="-54.61" y="58.42" smashed="yes">
-<attribute name="NAME" x="-52.07" y="57.658" size="1.524" layer="95"/>
-</instance>
-<instance part="X1" gate="-3" x="-54.61" y="55.88" smashed="yes">
-<attribute name="NAME" x="-52.07" y="55.118" size="1.524" layer="95"/>
-</instance>
-<instance part="X1" gate="-4" x="-54.61" y="53.34" smashed="yes">
-<attribute name="NAME" x="-52.07" y="52.578" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-1" x="-54.61" y="43.18" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="44.45" size="1.778" layer="96"/>
-<attribute name="NAME" x="-52.07" y="42.418" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-2" x="-54.61" y="40.64" smashed="yes">
-<attribute name="NAME" x="-52.07" y="39.878" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-3" x="-54.61" y="38.1" smashed="yes">
-<attribute name="NAME" x="-52.07" y="37.338" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-4" x="-54.61" y="35.56" smashed="yes">
-<attribute name="NAME" x="-52.07" y="34.798" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
