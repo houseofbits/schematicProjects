@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8677,6 +8677,7 @@ W = angled&lt;p&gt;
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8773,6 +8774,9 @@ W = angled&lt;p&gt;
 <instance part="GND1" gate="1" x="0" y="43.18" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="40.64" size="1.778" layer="96"/>
 </instance>
+<instance part="P+2" gate="1" x="96.52" y="73.66" smashed="yes" rot="R270">
+<attribute name="VALUE" x="99.06" y="73.66" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8797,6 +8801,11 @@ W = angled&lt;p&gt;
 <pinref part="SV1" gate="1" pin="1"/>
 <wire x1="-17.78" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8897,11 +8906,6 @@ W = angled&lt;p&gt;
 </segment>
 </net>
 <net name="VDD" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<label x="88.9" y="73.66" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="93.98" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>

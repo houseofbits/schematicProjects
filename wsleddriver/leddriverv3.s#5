@@ -8960,11 +8960,6 @@ W = angled&lt;p&gt;
 <label x="58.42" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="G$1" pin="10"/>
-<wire x1="-63.5" y1="116.84" x2="-53.34" y2="116.84" width="0.1524" layer="91"/>
-<label x="-55.88" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="RN1" gate="G$1" pin="6"/>
 <wire x1="-86.36" y1="101.6" x2="-96.52" y2="101.6" width="0.1524" layer="91"/>
 <label x="-96.52" y="101.6" size="1.778" layer="95"/>
@@ -8977,11 +8972,6 @@ W = angled&lt;p&gt;
 <label x="58.42" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="G$1" pin="9"/>
-<wire x1="-63.5" y1="119.38" x2="-53.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="-55.88" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="RN1" gate="G$1" pin="7"/>
 <wire x1="-86.36" y1="104.14" x2="-96.52" y2="104.14" width="0.1524" layer="91"/>
 <label x="-96.52" y="104.14" size="1.778" layer="95"/>
@@ -8992,11 +8982,6 @@ W = angled&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="B"/>
 <wire x1="66.04" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <label x="58.42" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="RN2" gate="G$1" pin="8"/>
-<wire x1="-63.5" y1="121.92" x2="-53.34" y2="121.92" width="0.1524" layer="91"/>
-<label x="-55.88" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RN1" gate="G$1" pin="8"/>
